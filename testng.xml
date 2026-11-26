@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Zamplia Vendor Portal - Calibr8 Report (Date range 10 days -> 1 month)" verbose="1">
+    <test name="Login" preserve-order="true">
+        <classes><class name="com.zamplia.tests.LoginTest"/></classes>
+    </test>
+    <test name="Calibr8 - Date Range" preserve-order="true">
+        <classes><class name="com.zamplia.tests.Calibr8DateRangeTest"/></classes>
+    </test>
+    <test name="Calibr8 - Filters (Country / Risk / Flag / Tabs)" preserve-order="true">
+        <classes><class name="com.zamplia.tests.Calibr8FilterTest"/></classes>
+    </test>
+    <test name="Calibr8 - Export" preserve-order="true">
+        <classes><class name="com.zamplia.tests.Calibr8ExportTest"/></classes>
+    </test>
+</suite>

@@ -1,0 +1,5 @@
+﻿UID,SurveyName,IP Address,OS,Browser,Country,CreatedAT,Timespent (in sec),Red Herring Fail,Coherency Detection,Biometrics Detection,Incorrect Country,Duplicate IP,AI Content Detection,Device & Behaviour,Open Ended Fraud,Threat Level
+deepakdesingertif,Test ZAM-3710 Revert testing 12 oct 2026,87.249.133.18,Windows,Chrome,UK,2026-10-12 06:35:01,43,Passed,Passed,Passed,Passed,Passed,Passed,Failed,Failed,Critical
+anshul38383,Test ZAM-3710 Revert testing 12 oct 2026,87.249.133.18,Windows,Chrome,UK,2026-10-12 06:34:52,48,Failed,Failed,Passed,Passed,Passed,Passed,Failed,Failed,Critical
+nee,Test ZAM-3710 Revert testing 12 oct 2026,87.249.133.18,Windows,Chrome,UK,2026-10-12 06:34:42,50,Failed,Failed,Passed,Passed,Passed,Passed,Failed,Failed,Critical
+avinashmatre4847433662,Test ZAM-3710 Revert testing 12 oct 2026,185.44.76.187,Windows,Chrome,UK,2026-10-12 06:33:50,0,Failed,Failed,Passed,Passed,Passed,Passed,Failed,Failed,Critical

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="597.593" tests="66" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\test-classes;C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\classes;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Avinash\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Avinash\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Avinash\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Avinash\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Avinash\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Avinash\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Avinash\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Avinash\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Avinash\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Avinash\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Avinash\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\Avinash\AppData\Local\Temp\surefire14823689799352705149\surefirebooter-20261124132835894_3.jar C:\Users\Avinash\AppData\Local\Temp\surefire14823689799352705149 2026-11-24T13-28-35_653-jvmRun1 surefire-20261124132835894_1tmp surefire_0-20261124132835894_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\test-classes;C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\classes;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\Avinash\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Avinash\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Avinash\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Avinash\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Avinash\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Avinash\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Avinash\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\Avinash\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\Avinash\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\Avinash\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Avinash\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Avinash\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Avinash\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Avinash"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Avinash\AppData\Local\Temp\surefire14823689799352705149\surefirebooter-20261124132835894_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="Avinash"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Avinash\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Avinash\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Avinash\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Avinash\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Avinash\Downloads\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;C:\Program Files\nodejs\;C:\Users\Avinash\.local\bin;C:\Users\Avinash\AppData\Local\Microsoft\WindowsApps;C:\Users\Avinash\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Avinash\AppData\Local\Programs\Git\cmd;C:\Users\Avinash\AppData\Local\GitHubDesktop\bin;C:\Users\Avinash\AppData\Roaming\npm;C:\Users\Avinash\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;c:\Users\Avinash\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="loginPageElementsDisplayed" classname="com.zamplia.tests.LoginTest" time="0.238">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 24, 2026 1:28:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 24, 2026 1:28:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="passwordMaskAndToggle" classname="com.zamplia.tests.LoginTest" time="0.737"/>
+  <testcase name="rememberMeCheckbox" classname="com.zamplia.tests.LoginTest" time="1.912"/>
+  <testcase name="emptyCredentials" classname="com.zamplia.tests.LoginTest" time="3.287"/>
+  <testcase name="wrongPassword" classname="com.zamplia.tests.LoginTest" time="8.901"/>
+  <testcase name="invalidUsername" classname="com.zamplia.tests.LoginTest" time="5.886"/>
+  <testcase name="passwordBlank" classname="com.zamplia.tests.LoginTest" time="3.586"/>
+  <testcase name="validLogin" classname="com.zamplia.tests.LoginTest" time="2.732"/>
+  <testcase name="endToEndNavigationToCalibr8" classname="com.zamplia.tests.LoginTest" time="6.342"/>
+  <testcase name="datePickerDisplayed" classname="com.zamplia.tests.Calibr8DateRangeTest" time="0.062">
+    <system-err><![CDATA[Nov 24, 2026 1:29:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 24, 2026 1:29:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="defaultRangeWithinLimit" classname="com.zamplia.tests.Calibr8DateRangeTest" time="0.0">
+    <skipped message="No default date range pre-filled (start=&apos;&apos;, end=&apos;&apos;)"/>
+  </testcase>
+  <testcase name="validRangeAccepted[Single day (start = end), 2026-10-01, 2026-10-01](1)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="9.273"/>
+  <testcase name="validRangeAccepted[Old limit: 10 days, 2026-10-01, 2026-10-10](2)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="10.032"/>
+  <testcase name="validRangeAccepted[Old limit + 1: 11 days (blocked before ticket), 2026-10-01, 2026-10-11](3)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="8.768"/>
+  <testcase name="validRangeAccepted[Mid range: 15 days, 2026-10-01, 2026-10-15](4)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="6.508"/>
+  <testcase name="validRangeAccepted[Max - 1: 30 days, 2026-10-01, 2026-10-30](5)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="6.561"/>
+  <testcase name="validRangeAccepted[Exact max boundary: 31 days, 2026-10-01, 2026-10-31](6)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="8.66"/>
+  <testcase name="validRangeAccepted[Full 31-day calendar month (Oct 2026), 2026-10-01, 2026-10-31](7)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="7.307"/>
+  <testcase name="validRangeAccepted[Full 30-day calendar month (Sep 2026), 2026-09-01, 2026-09-30](8)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="6.663"/>
+  <testcase name="validRangeAccepted[Cross-month range (15 Sep - 14 Oct), 2026-09-15, 2026-10-14](9)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="6.532"/>
+  <testcase name="validRangeAccepted[February non-leap (28 days), 2026-02-01, 2026-02-28](10)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="8.752"/>
+  <testcase name="validRangeAccepted[February leap year (29 days), 2024-02-01, 2024-02-29](11)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="6.825"/>
+  <testcase name="validRangeAccepted[Cross-year range (20 Dec - 10 Jan), 2025-12-20, 2026-01-10](12)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="6.335"/>
+  <testcase name="rangeAboveOneMonthRejected[Max + 1: 32 days (boundary), 2026-09-30, 2026-10-31](1)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.86"/>
+  <testcase name="rangeAboveOneMonthRejected[Max + 2: 33 days, 2026-09-29, 2026-10-31](2)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.846"/>
+  <testcase name="rangeAboveOneMonthRejected[45 days, 2026-09-17, 2026-10-31](3)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.901"/>
+  <testcase name="rangeAboveOneMonthRejected[60 days (~2 months), 2026-09-02, 2026-10-31](4)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="4.2"/>
+  <testcase name="rangeAboveOneMonthRejected[90 days (quarter), 2026-08-03, 2026-10-31](5)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.879"/>
+  <testcase name="rangeAboveOneMonthRejected[365 days (1 year), 2025-11-01, 2026-10-31](6)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.803"/>
+  <testcase name="rangeAboveOneMonthRejected[Two full calendar months (1 Sep - 31 Oct), 2026-09-01, 2026-10-31](7)" classname="com.zamplia.tests.Calibr8DateRangeTest" time="4.12"/>
+  <testcase name="calendarBoundaryCells" classname="com.zamplia.tests.Calibr8DateRangeTest" time="1.519"/>
+  <testcase name="selectRangeByCalendarClick" classname="com.zamplia.tests.Calibr8DateRangeTest" time="1.882"/>
+  <testcase name="startAfterEnd" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.854"/>
+  <testcase name="invalidDateFormat" classname="com.zamplia.tests.Calibr8DateRangeTest" time="2.138"/>
+  <testcase name="applyWithEmptyRange" classname="com.zamplia.tests.Calibr8DateRangeTest" time="1.569"/>
+  <testcase name="largerRangeHasMoreOrEqualData" classname="com.zamplia.tests.Calibr8DateRangeTest" time="5.686"/>
+  <testcase name="rangePersistsAcrossSubTabs" classname="com.zamplia.tests.Calibr8DateRangeTest" time="11.64"/>
+  <testcase name="resetRestoresDefaultRange" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.964"/>
+  <testcase name="applyTwiceKeepsRange" classname="com.zamplia.tests.Calibr8DateRangeTest" time="3.243"/>
+  <testcase name="countryDefault" classname="com.zamplia.tests.Calibr8FilterTest" time="0.294">
+    <system-err><![CDATA[Nov 24, 2026 1:33:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 24, 2026 1:33:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="countryOptionsListed" classname="com.zamplia.tests.Calibr8FilterTest" time="1.515"/>
+  <testcase name="countrySearch" classname="com.zamplia.tests.Calibr8FilterTest" time="0.0">
+    <skipped message="Country dropdown is not searchable"/>
+  </testcase>
+  <testcase name="countrySearchNoMatch" classname="com.zamplia.tests.Calibr8FilterTest" time="0.0">
+    <skipped message="Country dropdown is not searchable"/>
+  </testcase>
+  <testcase name="selectCountryAndApply" classname="com.zamplia.tests.Calibr8FilterTest" time="6.115"/>
+  <testcase name="riskLevelOptions" classname="com.zamplia.tests.Calibr8FilterTest" time="1.475"/>
+  <testcase name="filterByRiskLevel[Low, LOW RISK](1)" classname="com.zamplia.tests.Calibr8FilterTest" time="6.659"/>
+  <testcase name="filterByRiskLevel[Medium, MEDIUM RISK](2)" classname="com.zamplia.tests.Calibr8FilterTest" time="5.865"/>
+  <testcase name="filterByRiskLevel[High, HIGH RISK](3)" classname="com.zamplia.tests.Calibr8FilterTest" time="6.182"/>
+  <testcase name="filterByRiskLevel[Critical, CRITICAL](4)" classname="com.zamplia.tests.Calibr8FilterTest" time="7.101"/>
+  <testcase name="flagKeyOptions" classname="com.zamplia.tests.Calibr8FilterTest" time="1.817"/>
+  <testcase name="selectFlagAndApply" classname="com.zamplia.tests.Calibr8FilterTest" time="6.346"/>
+  <testcase name="combinedFilters" classname="com.zamplia.tests.Calibr8FilterTest" time="8.344"/>
+  <testcase name="resetClearsDropdowns" classname="com.zamplia.tests.Calibr8FilterTest" time="7.45"/>
+  <testcase name="metricCardsConsistent" classname="com.zamplia.tests.Calibr8FilterTest" time="1.239"/>
+  <testcase name="subTabOpens[Overview](1)" classname="com.zamplia.tests.Calibr8FilterTest" time="3.431"/>
+  <testcase name="subTabOpens[Deep Analysis](2)" classname="com.zamplia.tests.Calibr8FilterTest" time="4.036"/>
+  <testcase name="subTabOpens[Responses](3)" classname="com.zamplia.tests.Calibr8FilterTest" time="4.104"/>
+  <testcase name="subTabOpens[Geo Heatmap](4)" classname="com.zamplia.tests.Calibr8FilterTest" time="3.664"/>
+  <testcase name="exportButtonsVisible" classname="com.zamplia.tests.Calibr8ExportTest" time="0.044">
+    <failure message="Export button disabled/missing expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Export button disabled/missing expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.zamplia.tests.Calibr8ExportTest.exportButtonsVisible(Calibr8ExportTest.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Nov 24, 2026 1:36:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 24, 2026 1:36:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="exportHistoryPanel" classname="com.zamplia.tests.Calibr8ExportTest" time="5.794">
+    <system-out><![CDATA[Screenshot saved: C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\screenshots\exportButtonsVisible_20261124_133653.png
+]]></system-out>
+  </testcase>
+  <testcase name="exportOneMonth" classname="com.zamplia.tests.Calibr8ExportTest" time="13.867">
+    <system-out><![CDATA[Export job: #19 | 2026-11-24 13:37 | Completed | rows=16 | 3.1 KB | 2026-11-24 13:37
+Downloaded: C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\downloads\Calibr8_Report_2026-10-01_2026-10-31_20261124_080711.csv (3127 bytes)
+CSV header: [UID, SurveyName, IP Address, OS, Browser, Country, CreatedAT, Timespent (in sec), Red Herring Fail, Coherency Detection, Biometrics Detection, Incorrect Country, Duplicate IP, AI Content Detection, Device & Behaviour, Open Ended Fraud, Threat Level]
+]]></system-out>
+  </testcase>
+  <testcase name="exportElevenDays" classname="com.zamplia.tests.Calibr8ExportTest" time="12.868">
+    <system-out><![CDATA[Export job: #20 | 2026-11-24 13:37 | Completed | rows=12 | 2.4 KB | 2026-11-24 13:37
+Downloaded: C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\downloads\Calibr8_Report_2026-10-01_2026-10-11_20261124_080728.csv (2423 bytes)
+CSV header: [UID, SurveyName, IP Address, OS, Browser, Country, CreatedAT, Timespent (in sec), Red Herring Fail, Coherency Detection, Biometrics Detection, Incorrect Country, Duplicate IP, AI Content Detection, Device & Behaviour, Open Ended Fraud, Threat Level]
+]]></system-out>
+  </testcase>
+  <testcase name="exportWithCountry" classname="com.zamplia.tests.Calibr8ExportTest" time="14.717">
+    <system-out><![CDATA[Export job: #21 | 2026-11-24 13:37 | Completed | rows=4 | 941 B | 2026-11-24 13:37
+Downloaded: C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\downloads\Calibr8_Report_2026-10-01_2026-10-31_20261124_080745.csv (941 bytes)
+CSV header: [UID, SurveyName, IP Address, OS, Browser, Country, CreatedAT, Timespent (in sec), Red Herring Fail, Coherency Detection, Biometrics Detection, Incorrect Country, Duplicate IP, AI Content Detection, Device & Behaviour, Open Ended Fraud, Threat Level]
+Selected country: UK | CSV countries: [UK]
+]]></system-out>
+  </testcase>
+  <testcase name="filteredExportNotBiggerThanAll" classname="com.zamplia.tests.Calibr8ExportTest" time="23.591">
+    <system-out><![CDATA[Export job: #22 | 2026-11-24 13:38 | Completed | rows=16 | 3.1 KB | 2026-11-24 13:38
+Export job: #23 | 2026-11-24 13:38 | Completed | rows=4 | 941 B | 2026-11-24 13:38
+]]></system-out>
+  </testcase>
+  <testcase name="exportAboveOneMonthBlocked" classname="com.zamplia.tests.Calibr8ExportTest" time="5.83"/>
+  <testcase name="downloadExistingExport" classname="com.zamplia.tests.Calibr8ExportTest" time="4.366">
+    <system-out><![CDATA[Downloaded: C:\Users\Avinash\Music\calibr8-automation (1)\calibr8-automation\target\downloads\Calibr8_Report_2026-10-01_2026-10-31_20261124_080813.csv (941 bytes)
+]]></system-out>
+  </testcase>
+</testsuite>

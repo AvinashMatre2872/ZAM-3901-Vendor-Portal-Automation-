@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Zamplia Vendor Portal - Calibr8 Report (Date range 10 days -&gt; 1 month)]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Calibr8 - Date Range(failed)" verbose="0">
+    <classes>
+      <class name="com.zamplia.tests.Calibr8DateRangeTest">
+        <methods>
+          <include name="defaultRangeWithinLimit"/>
+          <include name="tearDown"/>
+          <include name="openCalibr8"/>
+          <include name="setUp"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- com.zamplia.tests.Calibr8DateRangeTest -->
+    </classes>
+  </test> <!-- Calibr8 - Date Range(failed) -->
+  <test thread-count="5" name="Calibr8 - Filters (Country / Risk / Flag / Tabs)(failed)" verbose="0">
+    <classes>
+      <class name="com.zamplia.tests.Calibr8FilterTest">
+        <methods>
+          <include name="openWithOneMonthRange"/>
+          <include name="countrySearch"/>
+          <include name="countrySearchNoMatch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- com.zamplia.tests.Calibr8FilterTest -->
+    </classes>
+  </test> <!-- Calibr8 - Filters (Country / Risk / Flag / Tabs)(failed) -->
+  <test thread-count="5" name="Calibr8 - Export(failed)" verbose="0">
+    <classes>
+      <class name="com.zamplia.tests.Calibr8ExportTest">
+        <methods>
+          <include name="exportButtonsVisible"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="openCalibr8"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- com.zamplia.tests.Calibr8ExportTest -->
+    </classes>
+  </test> <!-- Calibr8 - Export(failed) -->
+</suite> <!-- Failed suite [Zamplia Vendor Portal - Calibr8 Report (Date range 10 days -> 1 month)] -->
